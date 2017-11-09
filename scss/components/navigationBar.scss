@@ -1,0 +1,18 @@
+.sideNav{
+	margin:10px 20px 20px 0;
+	height:100%;
+	border-right:1px solid $grey4;
+	float:left;
+	h4{margin:0 0 0 8px;}
+	ul{
+		margin-left:-32px;
+		margin-right:12px;
+		list-style:none;
+		li{line-height:1.75em;padding:3px;}
+		li a{display:block;}
+	}
+	.here{background-color:$grey3;color:$black;padding:5px;}
+}
+
+@media screen and (max-width: 480px) {
+}
