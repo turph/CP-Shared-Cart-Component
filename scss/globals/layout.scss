@@ -5,17 +5,33 @@ body{
 a{color:$blue2;}
 .content{padding-left:10px;padding-right:10px;}
 
-// Section background coloring
-.back_white{background-color:$white;}
-.back_grey4{background-color:$grey4;}
-.back_grey5{background-color:$grey5;}
-.back_blue1{background-color:$blue1;}
-.back_blue2{background-color:$blue2;}
+// 4 section layouts
 
-section{
-	position:relative;
-	.title{margin:0 20px;font-size:21px;text-align:center;color:$blue1;font-weight:500;}
-	.subtitle{font-size:16px;color:$grey2;font-weight:300;display:block;}
+#contentWrapper{
+	margin-top:30px;width:1650px;
+	> div > div{
+		float:left;
+		margin-right:12px;
+		section{
+			border:1px solid $grey4;
+		}
+	}
+}
+#panel_desktop{
+	width:350px;
+	padding:15px 15px 50px 15px;
+}
+#panel_phone{
+	width:290px;
+	padding:15px 15px 50px 15px;
+}
+#cart_desktop{
+	width:508px;
+	padding:15px 20px 50px 20px;
+}
+#cart_phone{
+	width:320px;
+	padding:15px 10px 50px 10px;
 }
 
 @mixin clearfix {

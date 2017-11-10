@@ -25,6 +25,14 @@ $img-url: "../img";
 
 // Components & Page Types
 // ------------------------------------------------------------------------
+@import "components/cartHeader";
+@import "components/cartProduct";
+@import "components/cartAddon";
+@import "components/cartSubtotal";
+@import "components/cartFooter";
+
+@import "components/useCaseHiding";
+
 @import "components/navigationBar";
 @import "components/deliveryOptions";
 @import "components/productInfo";

@@ -1,0 +1,16 @@
+.add-on{
+	.groupTitle{
+		margin:15px 0 10px 25px;
+		border-bottom:1px solid $grey2;
+		color:$grey2;
+		font-weight:bold;
+	}
+}
+
+#panel_desktop, #cart_desktop{
+	.addon{
+		table{
+			td:nth-child(2){font-size:14px;}
+		}
+	}
+}
