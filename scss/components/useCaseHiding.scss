@@ -1,30 +1,40 @@
 .uc1a{
-	.product2, .child, .add-on{display:none;}
+	.cart-empty, .product2, .child, .add-on{display:none;}
 }
 .uc1b{
-	.product2, .add-on{display:none;}
+	.cart-empty, .product2, .add-on{display:none;}
 }
 .uc1c{
-	.product2, .child{display:none;}
+	.cart-empty, .product2, .child{display:none;}
 }
 .uc1d{
-	.product2{display:none;}
+	.cart-empty, .product2{display:none;}
 }
 
 .uc2a{
-	.child, .add-on{display:none;}
+	.cart-empty, .child, .add-on{display:none;}
 }
 .uc2b{
-	.add-on{display:none;}
+	.cart-empty, .add-on{display:none;}
 }
 .uc2c{
-	.child{display:none;}
+	.cart-empty, .child{display:none;}
 }
 .uc2d{
-	
+	.cart-empty{display:none;} 
 }
+.uc0{
+	.cart-product, .subtotal, .cta, .currency{display:none;} 
+}
+
 
 // Hide Close x from checkout cart displays
 #displayUC > div:nth-child(n+3){
 	.cart-header span{display:none;}
 }
+
+// Hide Close x from checkout cart displays
+.uc0{
+	> div:nth-child(1), > div:nth-child(2){display:none;}	
+}
+

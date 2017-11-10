@@ -1,5 +1,5 @@
 $(document).ready(function(){
-// Order Confirmation
+// Building the cart
 	$(".sideNav").load('includes/sideNav.html');
 	$(".cart-header").load('includes/cartHeader.html');
 	$(".product1").load('includes/product-soCal.html');
@@ -7,4 +7,5 @@ $(document).ready(function(){
 	$(".subtotal").load('includes/cartSubtotal.html');
 	$(".cta").load('includes/cta.html');
 	$(".currency").load('includes/currency.html');
+	$(".cart-empty").load('includes/empty.html');
 });

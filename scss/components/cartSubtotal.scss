@@ -9,6 +9,7 @@
 		line-height:21px;
 		tr td:nth-child(2), tr td:nth-child(3){width:1%;white-space:nowrap;}
 		tr td:nth-child(3){padding-right:2px;}
+		tr td:nth-child(2){color:$grey2;};
 		tr:nth-child(3) td:nth-child(2){
 			border-bottom:2px solid $red;
 		}

@@ -71,4 +71,15 @@ $(document).ready(function(){
 		$("#displayUC").addClass('uc2d');
 	});
 
+	
+	$("#nav_uc0").click(function() {
+		// Navigation states
+		$(".useCaseList li a").removeClass();
+		$(".useCaseList li:eq(16) a").addClass('here');
+		// Change DisplaydisplayUC
+		$("#displayUC").removeClass();
+		$("#displayUC").addClass('uc0');
+	});
+
+
 });

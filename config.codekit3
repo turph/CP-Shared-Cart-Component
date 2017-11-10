@@ -1201,6 +1201,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/img\/art_emptyCart.png": {
+		"ft": 32768,
+		"iS": 1911,
+		"oA": 0,
+		"oAP": "\/img\/art_emptyCart.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/bos-bookletimage.png": {
 		"ft": 32768,
 		"iS": 259138,
@@ -1491,6 +1502,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/currency.html",
+		"oF": 0
+		},
+	"\/includes\/empty.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/empty.html",
 		"oF": 0
 		},
 	"\/includes\/product-dallas.html": {
