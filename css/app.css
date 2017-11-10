@@ -91,6 +91,9 @@ h5, .sectionTitle {
 .nowrap {
   white-space: nowrap; }
 
+.strike {
+  text-decoration: line-through; }
+
 .btn {
   font-size: 1em;
   padding: 1em 1.5em;
@@ -149,7 +152,7 @@ h5, .sectionTitle {
     margin-bottom: 5px; }
 
 .cart-product .product-row {
-  margin-bottom: 5px; }
+  margin: 3px 0; }
   .cart-product .product-row table {
     border-collapse: collapse;
     width: 100%; }
@@ -222,6 +225,8 @@ h5, .sectionTitle {
     .cartSubtotal table tr td:nth-child(2), .cartSubtotal table tr td:nth-child(3) {
       width: 1%;
       white-space: nowrap; }
+    .cartSubtotal table tr td:nth-child(3) {
+      padding-right: 2px; }
     .cartSubtotal table tr:nth-child(3) td:nth-child(2) {
       border-bottom: 2px solid #EB0029; }
     .cartSubtotal table tr:nth-child(3) td:nth-child(3) {
@@ -271,6 +276,9 @@ h5, .sectionTitle {
   display: none; }
 
 .uc2c .child {
+  display: none; }
+
+#displayUC > div:nth-child(n+3) .cart-header span {
   display: none; }
 
 .sideNav {

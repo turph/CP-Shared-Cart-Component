@@ -23,3 +23,8 @@
 .uc2d{
 	
 }
+
+// Hide Close x from checkout cart displays
+#displayUC > div:nth-child(n+3){
+	.cart-header span{display:none;}
+}
