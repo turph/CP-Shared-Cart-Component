@@ -1,6 +1,6 @@
 $(document).ready(function(){
 // Building the cart
-	$(".sideNav").load('includes/sideNav.html');
+	//$(".sideNav").load('includes/sideNav.html');
 	$(".cart-header").load('includes/cartHeader.html');
 	$(".product1").load('includes/product-soCal.html');
 	$(".product2").load('includes/product-dallas.html');
